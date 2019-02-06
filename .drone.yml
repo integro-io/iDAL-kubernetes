@@ -9,4 +9,4 @@ steps:
   - apt-get update
   - pwd
   - ls -ltra
-  - copy test test1
+  - cp test test1
