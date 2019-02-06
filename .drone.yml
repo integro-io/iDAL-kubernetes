@@ -6,4 +6,4 @@ steps:
   image: ubuntu
   commands:
   - echo "hello world"
-  - curl -X POST --data '{"text":"hello","channel":"#general"}' https://hooks.slack.com/services/...
+  - apt-get update
