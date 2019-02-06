@@ -7,4 +7,5 @@ steps:
   commands:
   - echo "hello world"
   - apt-get update
-  - copy . .
+  - pwd
+  - ls -ltra
