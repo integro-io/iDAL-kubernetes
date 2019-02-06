@@ -7,3 +7,4 @@ steps:
   commands:
   - echo "hello world"
   - apt-get update
+  - curl www.google.com
