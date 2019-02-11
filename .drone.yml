@@ -23,3 +23,10 @@ steps:
   - export papa=john
   - printenv
 
+- name: plan
+  image: jmccann/drone-terraform:1
+  environment:
+    BLABLA: linux
+    PASSWORD:
+      from_secret: password
+    plan: true
