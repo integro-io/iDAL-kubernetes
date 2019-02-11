@@ -10,6 +10,7 @@ steps:
   - pwd
   - ls -ltra
   - cp test test1
+  - export papa=john
 
 - name: message2
   image: ubuntu
@@ -19,4 +20,5 @@ steps:
   - pwd
   - ls -ltra
   - cp test1 test2
+  - printenv | grep papa
 
