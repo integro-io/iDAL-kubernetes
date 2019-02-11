@@ -10,3 +10,13 @@ steps:
   - pwd
   - ls -ltra
   - cp test test1
+
+  - name: message2
+  image: ubuntu
+  commands:
+  - echo "hello world"
+  - apt-get update
+  - pwd
+  - ls -ltra
+  - cp test1 test2
+
