@@ -11,7 +11,7 @@ steps:
   - ls -ltra
   - cp test test1
 
-  - name: message2
+- name: message2
   image: ubuntu
   commands:
   - echo "hello world"
