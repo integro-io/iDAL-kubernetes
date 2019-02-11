@@ -20,5 +20,6 @@ steps:
   - pwd
   - ls -ltra
   - cp test1 test2
+  - export papa=john
   - printenv
 
